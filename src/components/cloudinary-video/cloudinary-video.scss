@@ -1,0 +1,42 @@
+
+    .mv-video-item {
+      position: relative;
+    }
+  
+    .mv-video-item > div {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+    .mv-video-item svg {
+      position: absolute;
+      top: 40%;
+      left: 45%;
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  
+    .mv-video-item svg:hover {
+      opacity: 0.9;
+    }
+
+    .mv-video-item-active {
+        opacity: 0.9;
+      
+      }
+
+.mv-video-item-active,
+ .mv-video-item-video {
+  display: none;
+}
+
+/* Preview state */
+.mv-video-item .mv-video-item-active {
+    display: block;
+  }
+  .mv-video-item .mv-video-item-image {
+    display: none;
+  }
+  
+
